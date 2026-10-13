@@ -5,17 +5,12 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.List;
 
 import org.opensha.commons.data.Site;
 import org.opensha.commons.geo.Location;
-import org.opensha.commons.geo.LocationUtils;
-import org.opensha.commons.geo.LocationVector;
-import org.opensha.sha.earthquake.FocalMechanism;
 import org.opensha.sha.imr.param.SiteParams.DepthTo1pt0kmPerSecParam;
 import org.opensha.sha.imr.param.SiteParams.DepthTo2pt5kmPerSecParam;
 import org.opensha.sha.imr.param.SiteParams.Vs30_Param;
